@@ -6,3 +6,5 @@ regex
 requests~=2.25.1
 msal~=1.9.0
 pytz
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
